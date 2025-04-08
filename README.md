@@ -44,19 +44,16 @@ Figma | UI/UX design & prototyping
 The FlyAZ Passport app is still in development, planning for completion over the course of at least three stages. With separation of concerns and abstraction in mind, stage one was designated to focus solely on the client application: a mobile app for both Android and iOS platforms. The goal was to develop a fully navigable front-end that looks and feels like the final product, only using mock data in place of integration with a back-end database for the time being.
 
 Logical Design | Physical Design
-:-:|:-:
-![](/documents/LogicalDesign.png) | ![](/documents/PhysicalDesign.png)
-
-**UML Diagram**
-![](/documents/UMLDiagram.png)
+-|-
+![](/documents/LogicalDesign.png) Defines the various layers present in the client application, and a proposal for the design of the server application, using a REST API, which will be completed in a future stage. The client application consumes mock data until then. | ![](/documents/PhysicalDesign.png) Shows the relationship between the client, mock data, server, and database, including the specific devices and environment the client was tested on.
 
 ## Project Management
 The project so far has followed the complete software development lifecycle (SDLC) process. Before the start of code development, a project proposal, risk management plan, technical & non-functional requirements, and througough design documentation were all carefully constructed to create as much clarity and direction for the project as possible. Thanks to this thorough planning, development has progressed smoothly since then in a sprint-based structure, using Jira to track user stories and generate progress reports. Weekly team meetings with the client and project mentors have been held throughout to provide updates, get feedback, and discuss the direction of the project. A test plan was maintained and performed throughout, to ensure the functionality of all features as development progressed. By the end of stage one, 118% of all initially defined project requirements were completed, including several features pulled in from out-of-scope.
 
 Jira Backlog & Burndown Chart | Traceability Matrix & Test Cases
-:-:|:-:
-![](/documents/JiraBacklog.png) | ![](/documents/TraceabilityMatrix.png)
-![](/documents/JiraBurndownChart.png) | ![](/documents/TestCases.png)
+-|-
+![](/documents/JiraBacklog.png) Backlog of user stories being tracked in Jira, to make sprints & project management easy. | ![](/documents/TraceabilityMatrix.png) Traceability matrix used to track the relationship between all user stories, documentation, code files, and test cases.
+![](/documents/JiraBurndownChart.png) Example of a burndown chart generated in Jira based on the projected vs. completed user stories. | ![](/documents/TestCases.png) Test plan including test cases that correspond to every user story, ensuring all features function properly.
 
 ## Risks & Challenges
 - Since the developer had no prior experience with Flutter (the framework), Dart (the language), Android Studio (the IDE), or even Figma (the UI/UX designer), choosing these tools was considered a major risk going into the project. To ensure this risk did not become an issue, a comprehensive risk management plan was put into place for it, including the completion of coursework on these tools and multiple test applications prior to the start of project development. This was completed smoothly and was what allowed the project to be as successful as it was, using the right tools for the job.
